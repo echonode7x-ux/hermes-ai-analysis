@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>AI Analysis — 方法与信号</title>
+    <meta name="description" content="研究方法、Cloudflare 部署原则与当前信号。" />
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="./index.html">HERMES / AI Analysis</a>
+        <nav class="nav">
+          <a class="" href="./index.html">首页</a>
+          <a class="" href="./opportunities.html">机会库</a>
+          <a class="" href="./later.html">后做清单</a>
+          <a class="active" href="./method.html">方法与信号</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container section">
+  <div class="section-head">
+    <div>
+      <h2>方法、信号与站点定位</h2>
+      <p>这个项目不是内容生产系统，而是“调研 + 展示”的信息平台。内容先本地结构化，前端静态发布。</p>
+    </div>
+  </div>
+  <div class="grid cols-2">
+    <div class="card">
+      <h3>站点定位</h3>
+      <ul class="list">
+        <li>核心目标不是直接做 SaaS，而是搭建一个可持续扩充的研究型入口站。</li>
+        <li>主页强调“可执行机会”，而不是空泛趋势。</li>
+        <li>页面结构以专题页、机会页、后做清单、方法说明组成。</li>
+        <li>后续可扩展：标签筛选、项目详情页、留言表单、邮件订阅、轻工具页。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Cloudflare 部署原则</h3>
+      <ul class="list">
+        <li>优先使用 Cloudflare Pages 托管纯静态输出。</li>
+        <li>如果后续要表单、订阅、抓取任务，再加 Pages Functions / Workers。</li>
+        <li>不引入远程字体或不必要 CDN 依赖，提升稳定性。</li>
+        <li>所有调研数据先维护在本地 JSON，避免过早接 CMS。</li>
+      </ul>
+    </div>
+  </div>
+  <section class="section" style="padding-bottom:0">
+    <div class="card">
+      <h3>当前使用的验证信号</h3>
+      <div id="method-signals"></div>
+    </div>
+  </section>
+</main>
+    <footer class="footer container">
+      <div>最后更新：<span id="updated-at">加载中</span> · 站点默认以 Cloudflare Pages 静态部署为目标。</div>
+    </footer>
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>

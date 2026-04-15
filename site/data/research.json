@@ -1,0 +1,222 @@
+{
+  "updatedAt": "2026-04-15",
+  "hero": {
+    "title": "AI Analysis — 一人公司可执行的 AI 红利机会研究站",
+    "subtitle": "面向低成本、AI Coding 驱动、可在 7–30 天上线的页面型机会。先获取访问和真实反馈，再延展为模板、会员、工具或自动化服务。"
+  },
+  "priorityOpportunities": [
+    {
+      "id": "op-1",
+      "name": "AI Coding 工具导航 + 对比页 + 中文场景索引",
+      "priority": "P1",
+      "fit": "启动最快、内容最易复制、Cloudflare 友好、可以先做静态页面拿访问。",
+      "format": "导航站 / 对比页 / 替代页 / 适用场景页",
+      "targetUsers": "独立开发者、小团队 CTO、外包团队、技术 PM",
+      "launch": "7 天内先上 20–40 页：工具对比、开源替代、中文可用、本地部署标签页。",
+      "contentSources": [
+        "GitHub Repo & Releases",
+        "官方 Docs/定价页",
+        "社区讨论与实测笔记"
+      ],
+      "cloudflare": "非常适合。纯静态页 + 可选 Pages Functions。",
+      "apiGpu": "基本不依赖；后续可按需加 BYOK。",
+      "monetization": [
+        "赞助位",
+        "联盟分销",
+        "咨询/选型服务",
+        "模板包"
+      ],
+      "risk": "避免照搬厂商文案；比较需客观，避免暗示官方关系。",
+      "activity": "高：OpenHands / aider / Continue 仍在高频更新。",
+      "canDoNow": "可以",
+      "keywords": [
+        "Cursor alternatives 中文",
+        "开源 AI 编程助手",
+        "AI IDE 对比",
+        "适合中国开发者的 AI IDE"
+      ]
+    },
+    {
+      "id": "op-2",
+      "name": "开源 AI Coding 栈情报页 / 兼容矩阵站",
+      "priority": "P1",
+      "fit": "结构化信息强，差异化明显，适合长期做成“选型数据库”。",
+      "format": "情报页 / 兼容矩阵 / 私有化方案页 / 选型页",
+      "targetUsers": "重视隐私和成本的小公司、技术负责人、内网团队",
+      "launch": "7–14 天先做兼容矩阵：本地模型支持、IDE 支持、成本、安装复杂度。",
+      "contentSources": [
+        "GitHub API",
+        "Repo README",
+        "Issues",
+        "Releases",
+        "本地安装测试"
+      ],
+      "cloudflare": "非常适合。静态数据页即可上线。",
+      "apiGpu": "不依赖 GPU，也不依赖高额 API。",
+      "monetization": [
+        "企业留资",
+        "选型咨询",
+        "培训",
+        "付费报告"
+      ],
+      "risk": "许可证与截图素材使用要谨慎；不同项目许可不同。",
+      "activity": "高：开源 agent / IDE 辅助工具持续更新。",
+      "canDoNow": "可以",
+      "keywords": [
+        "本地部署 AI 编程助手",
+        "AI coding 私有化方案",
+        "开源 Cursor 替代"
+      ]
+    },
+    {
+      "id": "op-3",
+      "name": "AI Coding Prompt / Rules / Context 模板库",
+      "priority": "P1",
+      "fit": "成本最低、上线最快、最容易直接售卖模板。",
+      "format": "模板库 / 下载页 / 合集页 / 会员内容页",
+      "targetUsers": "使用 Cursor / Claude Code / Continue / aider 的开发者",
+      "launch": "7 天先做 30–80 个模板页，覆盖 PR review、bug 修复、重构、repo onboarding。",
+      "contentSources": [
+        "原创模板",
+        "公开可参考范式",
+        "实测后重写整理"
+      ],
+      "cloudflare": "非常适合。纯静态资产即可。",
+      "apiGpu": "不依赖。",
+      "monetization": [
+        "模板包",
+        "会员库",
+        "企业定制 workflow"
+      ],
+      "risk": "不要直接打包售卖他人 repo 规则文件；应原创或重写。",
+      "activity": "高：repo 级 AI 说明文件越来越常见。",
+      "canDoNow": "可以",
+      "keywords": [
+        "Cursor rules 模板",
+        "Claude Code 提示词模板",
+        "AI 编程上下文文件"
+      ]
+    },
+    {
+      "id": "op-4",
+      "name": "AI 编程提效方案页 / SOP 站",
+      "priority": "P1",
+      "fit": "更接近变现，适合从内容站过渡到咨询/培训/实施。",
+      "format": "方案页 / 岗位页 / 场景页 / SOP 页",
+      "targetUsers": "小团队 CTO、外包团队负责人、业务型技术团队",
+      "launch": "7–14 天做 10–20 页：Jira->计划、测试用例生成、PR 说明自动化、文档补全。",
+      "contentSources": [
+        "官方案例",
+        "开源工作流",
+        "实操 SOP",
+        "通用研发流程"
+      ],
+      "cloudflare": "非常适合。",
+      "apiGpu": "可以先不依赖。",
+      "monetization": [
+        "留资",
+        "咨询",
+        "培训",
+        "实施服务",
+        "诊断报告"
+      ],
+      "risk": "不要夸大 ROI；建议给方法论与样例。",
+      "activity": "高",
+      "canDoNow": "可以",
+      "keywords": [
+        "AI 编程提效方案",
+        "研发团队 AI 落地",
+        "外包公司 AI coding SOP"
+      ]
+    },
+    {
+      "id": "op-5",
+      "name": "零 / 低 API 的 AI Coding 微工具页",
+      "priority": "P1",
+      "fit": "可作为站点钩子页，既拿访问也能验证工具需求。",
+      "format": "生成器 / 检查器 / 估算器 / 单页轻工具",
+      "targetUsers": "开发者、技术运营、团队负责人",
+      "launch": "7–21 天做 2–4 个工具：rules 生成器、PR 描述生成器、token 估算器、LLM 成本估算器。",
+      "contentSources": [
+        "公开定价",
+        "前端算法",
+        "模板规则",
+        "你的 workflow 逻辑"
+      ],
+      "cloudflare": "非常适合。前端即可完成。",
+      "apiGpu": "可做到零 API。",
+      "monetization": [
+        "Freemium",
+        "导流模板库",
+        "团队版",
+        "留资"
+      ],
+      "risk": "低，重点是交互价值和页面可传播性。",
+      "activity": "中高",
+      "canDoNow": "可以",
+      "keywords": [
+        "PR 描述生成器",
+        "Cursor rules 生成器",
+        "codebase token estimator"
+      ]
+    }
+  ],
+  "laterOpportunities": [
+    {
+      "name": "通用企业 AI Copilot / 知识库问答平台",
+      "reason": "集成、安全、权限、销售周期都重，且被大厂持续捆绑。",
+      "cost": "中高",
+      "risk": "SSO、权限、审计、数据合规",
+      "timing": "更适合后期"
+    },
+    {
+      "name": "AI 视频生成 / 数字人 / 重媒体平台",
+      "reason": "推理、带宽、存储与质量要求高，不适合当前轻量验证。",
+      "cost": "很高",
+      "risk": "烧钱、竞争强、用户预期高",
+      "timing": "更适合后期"
+    },
+    {
+      "name": "通用语音 Agent / 电话销售平台",
+      "reason": "链路复杂、延迟敏感、异常处理和交付成本高。",
+      "cost": "高",
+      "risk": "质量控制、合规与客户支持重",
+      "timing": "更适合后期"
+    },
+    {
+      "name": "医疗 / 法律 / 金融等高合规 AI 决策产品",
+      "reason": "信任、责任和专业边界成本过高。",
+      "cost": "高",
+      "risk": "合规、免责声明、专业责任",
+      "timing": "更适合后期"
+    }
+  ],
+  "signals": [
+    {
+      "label": "OpenHands",
+      "value": "71.2k stars · 最新 push 2026-04-15"
+    },
+    {
+      "label": "aider",
+      "value": "43.3k stars · 最新 push 2026-04-09"
+    },
+    {
+      "label": "Continue",
+      "value": "32.6k stars · 最新 push 2026-04-14"
+    },
+    {
+      "label": "Cloudflare Pages Free",
+      "value": "500 builds/月 · 20,000 files/site · 单文件 25 MiB"
+    },
+    {
+      "label": "Cloudflare Workers Paid",
+      "value": "$5/月起；可在 Pages 基础上增量接 Functions"
+    }
+  ],
+  "nextActions": [
+    "先做 30 页以内的内容型 MVP，不先做重 SaaS。",
+    "首批页面建议：10 个对比页 + 10 个替代页 + 5 个方案页 + 5 个模板页。",
+    "所有内容先本地结构化，避免先上 CMS。",
+    "上线后根据访问和留资数据再决定加会员库、微工具或咨询产品。"
+  ]
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>AI Analysis — 首页</title>
+    <meta name="description" content="一人公司可执行的 AI 红利机会研究站。" />
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="./index.html">HERMES / AI Analysis</a>
+        <nav class="nav">
+          <a class="active" href="./index.html">首页</a>
+          <a class="" href="./opportunities.html">机会库</a>
+          <a class="" href="./later.html">后做清单</a>
+          <a class="" href="./method.html">方法与信号</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+  <section class="hero container">
+    <div class="eyebrow">今日调研 / 页面型机会 / Cloudflare 友好</div>
+    <div class="hero-grid">
+      <div class="hero-card">
+        <h1 id="hero-title">加载中</h1>
+        <p id="hero-subtitle">加载中</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="./opportunities.html">查看优先机会</a>
+          <a class="btn secondary" href="./later.html">查看后做清单</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="metric"><strong>7–30 天</strong><span>优先筛选短周期可上线项目</span></div>
+        <div class="metric"><strong>低 API 成本</strong><span>优先静态站、轻交互、低调用方案</span></div>
+        <div class="metric"><strong>Cloudflare</strong><span>Pages / Functions / Workers 友好</span></div>
+        <div class="metric"><strong>先验证流量</strong><span>后续再延伸模板、会员、工具与服务</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="section-head">
+      <div>
+        <h2>优先做的 3 个方向</h2>
+        <p>首页只展示最值得先做成页面、站点或轻工具的方向，避免信息过载。</p>
+      </div>
+    </div>
+    <div class="grid cols-3" id="top-opportunities"></div>
+  </section>
+
+  <section class="section container">
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>当前外部信号</h3>
+        <div id="signals"></div>
+      </div>
+      <div class="card">
+        <h3>建议的执行顺序</h3>
+        <ol class="list" id="next-actions"></ol>
+        <div class="note">建议先做 30 页以内的内容型 MVP，再根据访问和留资决定是否加会员、工具或服务。</div>
+      </div>
+    </div>
+  </section>
+</main>
+    <footer class="footer container">
+      <div>最后更新：<span id="updated-at">加载中</span> · 站点默认以 Cloudflare Pages 静态部署为目标。</div>
+    </footer>
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
