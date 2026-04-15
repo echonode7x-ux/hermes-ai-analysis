@@ -4,70 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
-    <title>AI Analysis — 首页</title>
-    <meta name="description" content="一人公司可执行的 AI 红利机会研究站。" />
+    <title>AI Analysis｜总览首页</title>
+    <meta name="description" content="面向一人公司的 AI 红利研究站与公开信息平台。" />
     <link rel="stylesheet" href="./assets/app.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="container topbar-inner">
-        <a class="brand" href="./index.html">HERMES / AI Analysis</a>
-        <nav class="nav">
-          <a class="active" href="./index.html">首页</a>
-          <a class="" href="./opportunities.html">机会库</a>
-          <a class="" href="./later.html">后做清单</a>
-          <a class="" href="./method.html">方法与信号</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-  <section class="hero container">
-    <div class="eyebrow">今日调研 / 页面型机会 / Cloudflare 友好</div>
-    <div class="hero-grid">
-      <div class="hero-card">
-        <h1 id="hero-title">加载中</h1>
-        <p id="hero-subtitle">加载中</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="./opportunities.html">查看优先机会</a>
-          <a class="btn secondary" href="./later.html">查看后做清单</a>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand-block">
+          <div class="brand">HERMES / AI Analysis</div>
+          <div class="brand-sub">研究站版本已吸收龙虾项目的结构优点，重构为更适合中文阅读和长期维护的信息平台。</div>
         </div>
-      </div>
-      <div class="hero-stats">
-        <div class="metric"><strong>7–30 天</strong><span>优先筛选短周期可上线项目</span></div>
-        <div class="metric"><strong>低 API 成本</strong><span>优先静态站、轻交互、低调用方案</span></div>
-        <div class="metric"><strong>Cloudflare</strong><span>Pages / Functions / Workers 友好</span></div>
-        <div class="metric"><strong>先验证流量</strong><span>后续再延伸模板、会员、工具与服务</span></div>
-      </div>
+        <div class="nav-title">导航</div>
+        <nav class="nav">
+          <a class="active" href="./index.html">总览首页</a>
+          <a class="" href="./opportunities.html">机会库</a>
+          <a class="" href="./tracks.html">赛道页</a>
+          <a class="" href="./keywords.html">关键词</a>
+          <a class="" href="./signals.html">信号页</a>
+          <a class="" href="./later.html">后做清单</a>
+          <a class="" href="./method.html">方法说明</a>
+        </nav>
+        <div class="sidebar-card">
+          <strong>当前定位</strong><br />
+          这不是 demo 落地页，而是面向长期迭代的研究型公开信息平台，可逐步扩成 wiki、模板库、方案站和轻工具入口。
+        </div>
+      </aside>
+      <main class="main">
+        <div class="topbar">
+          <div class="top-badge">Cloudflare First · Research Platform · 中文优先</div>
+          <div class="top-badge">最后更新：<span id="updated-at">加载中</span></div>
+        </div>
+        <section class="page-hero">
+  <div class="panel hero-main">
+    <div class="eyebrow" id="hero-eyebrow">加载中</div>
+    <h1 id="hero-title">加载中</h1>
+    <p id="hero-subtitle">加载中</p>
+    <div class="action-row">
+      <a class="btn primary" href="./opportunities.html">查看优先机会</a>
+      <a class="btn secondary" href="./tracks.html">浏览赛道布局</a>
     </div>
-  </section>
+  </div>
+  <div class="hero-side">
+    <div class="panel hero-spotlight">
+      <div class="eyebrow">今日主线</div>
+      <h2 id="spotlight-title">加载中</h2>
+      <p id="spotlight-summary">加载中</p>
+      <ul class="list" id="spotlight-points"></ul>
+    </div>
+    <div class="panel metrics" id="quick-stats"></div>
+  </div>
+</section>
 
-  <section class="section container">
-    <div class="section-head">
-      <div>
-        <h2>优先做的 3 个方向</h2>
-        <p>首页只展示最值得先做成页面、站点或轻工具的方向，避免信息过载。</p>
-      </div>
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>优先机会</h2>
+      <p>这里是最适合先做成网页、专题站、情报页、方案页和轻工具的方向。</p>
     </div>
-    <div class="grid cols-3" id="top-opportunities"></div>
-  </section>
+  </div>
+  <div class="grid cols-3" id="top-opportunities"></div>
+</section>
 
-  <section class="section container">
-    <div class="grid cols-2">
-      <div class="card">
-        <h3>当前外部信号</h3>
-        <div id="signals"></div>
-      </div>
-      <div class="card">
-        <h3>建议的执行顺序</h3>
-        <ol class="list" id="next-actions"></ol>
-        <div class="note">建议先做 30 页以内的内容型 MVP，再根据访问和留资决定是否加会员、工具或服务。</div>
-      </div>
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>重点赛道</h2>
+      <p>吸收龙虾版本的“赛道化结构”，但改成更适合中文公开信息平台的表达方式。</p>
     </div>
-  </section>
-</main>
-    <footer class="footer container">
-      <div>最后更新：<span id="updated-at">加载中</span> · 站点默认以 Cloudflare Pages 静态部署为目标。</div>
-    </footer>
+  </div>
+  <div class="grid cols-3" id="tracks-preview"></div>
+</section>
+
+<section class="section">
+  <div class="grid cols-2">
+    <div class="card section-card">
+      <div class="eyebrow">外部信号</div>
+      <h3>当前判断依据</h3>
+      <div class="signal-list" id="signal-list"></div>
+    </div>
+    <div class="card section-card">
+      <div class="eyebrow">关键词与内容方向</div>
+      <h3>适合做站的关键词簇</h3>
+      <div class="grid" id="keyword-preview"></div>
+    </div>
+  </div>
+</section>
+
+        <div class="footer">Hermes 版本已结合龙虾项目的结构优点统一重构。默认目标：Cloudflare Pages 静态部署。</div>
+      </main>
+    </div>
     <script type="module" src="./assets/app.js"></script>
   </body>
 </html>

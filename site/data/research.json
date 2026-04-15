@@ -1,193 +1,368 @@
 {
   "updatedAt": "2026-04-15",
   "hero": {
-    "title": "AI Analysis — 一人公司可执行的 AI 红利机会研究站",
-    "subtitle": "面向低成本、AI Coding 驱动、可在 7–30 天上线的页面型机会。先获取访问和真实反馈，再延展为模板、会员、工具或自动化服务。"
+    "eyebrow": "研究中控 / Cloudflare 优先 / 低成本验证",
+    "title": "AI Analysis｜面向一人公司的 AI 红利研究站",
+    "subtitle": "结合 Hermes 与龙虾两版思路后重构：既保留研究站的结构化信息架构，也保持中文可读、可执行、可直接拿去做网页、专题站、轻工具和信息平台的方向判断。"
   },
+  "spotlight": {
+    "title": "当前最值得先做的总方向",
+    "summary": "优先做成“AI Coding 工具导航 + 开源栈情报 + 场景方案页 + 模板库 + 轻工具”的组合型研究平台。它最适合 Cloudflare 静态部署，最容易先拿访问和真实反馈，再延展到模板、会员、顾问与工具产品。",
+    "points": [
+      "7–30 天可上线",
+      "几乎不依赖高额 API / GPU",
+      "天然适合目录页、对比页、专题页和知识库结构",
+      "后续可以逐层扩展为工具页、留资页、模板销售和咨询服务"
+    ]
+  },
+  "quickStats": [
+    {
+      "label": "优先机会",
+      "value": "6"
+    },
+    {
+      "label": "重点赛道",
+      "value": "3"
+    },
+    {
+      "label": "关键词簇",
+      "value": "4"
+    },
+    {
+      "label": "后做方向",
+      "value": "4"
+    }
+  ],
+  "tracks": [
+    {
+      "slug": "ai-coding",
+      "name": "AI Coding",
+      "accent": "sage",
+      "summary": "最贴近当前能力、启动快、信息供给足、最容易做成中文研究平台和工具化入口。",
+      "whyNow": [
+        "OpenHands / aider / Continue 等项目仍在高频更新",
+        "开发者搜索意图强，天然适合对比页、替代页、模板页",
+        "几乎可以用静态站直接起步"
+      ]
+    },
+    {
+      "slug": "mcp",
+      "name": "MCP / 集成生态",
+      "accent": "clay",
+      "summary": "龙虾版本里最值得吸收的赛道之一，信息碎片化明显，适合做目录和集成情报站。",
+      "whyNow": [
+        "生态仍在快速扩张，供给碎片化",
+        "有高价值的“目录 + 解释 + 场景化”机会",
+        "非常适合 wiki 风格站点"
+      ]
+    },
+    {
+      "slug": "browser-automation",
+      "name": "Browser Automation",
+      "accent": "teal",
+      "summary": "不是先做通用平台，而是先做场景平台、方案页和公开情报页。",
+      "whyNow": [
+        "热度高，但多数人仍缺“能直接用的场景化说明”",
+        "适合做行业/岗位工作流专题",
+        "能从页面站逐步过渡到服务和轻工具"
+      ]
+    }
+  ],
   "priorityOpportunities": [
     {
       "id": "op-1",
+      "slug": "ai-coding-hub",
       "name": "AI Coding 工具导航 + 对比页 + 中文场景索引",
       "priority": "P1",
-      "fit": "启动最快、内容最易复制、Cloudflare 友好、可以先做静态页面拿访问。",
-      "format": "导航站 / 对比页 / 替代页 / 适用场景页",
+      "track": "ai-coding",
+      "fit": "启动最快、最适合做成站点型资产，也是最容易先拿访问的一条线。",
+      "format": "目录站 / 对比页 / 替代页 / 场景页",
       "targetUsers": "独立开发者、小团队 CTO、外包团队、技术 PM",
       "launch": "7 天内先上 20–40 页：工具对比、开源替代、中文可用、本地部署标签页。",
       "contentSources": [
         "GitHub Repo & Releases",
-        "官方 Docs/定价页",
-        "社区讨论与实测笔记"
+        "官方文档/定价页",
+        "社区讨论与实测"
       ],
       "cloudflare": "非常适合。纯静态页 + 可选 Pages Functions。",
-      "apiGpu": "基本不依赖；后续可按需加 BYOK。",
+      "apiGpu": "基本不依赖。",
       "monetization": [
         "赞助位",
         "联盟分销",
-        "咨询/选型服务",
+        "选型咨询",
         "模板包"
       ],
-      "risk": "避免照搬厂商文案；比较需客观，避免暗示官方关系。",
-      "activity": "高：OpenHands / aider / Continue 仍在高频更新。",
+      "risk": "注意比较页的客观性和文案原创度。",
+      "activity": "高",
       "canDoNow": "可以",
       "keywords": [
         "Cursor alternatives 中文",
-        "开源 AI 编程助手",
         "AI IDE 对比",
+        "开源 AI 编程助手",
         "适合中国开发者的 AI IDE"
+      ],
+      "highlights": [
+        "流量获取最快",
+        "适合做公开信息平台",
+        "后续最容易转模板/工具/咨询"
       ]
     },
     {
       "id": "op-2",
+      "slug": "ai-coding-stack-intel",
       "name": "开源 AI Coding 栈情报页 / 兼容矩阵站",
       "priority": "P1",
-      "fit": "结构化信息强，差异化明显，适合长期做成“选型数据库”。",
-      "format": "情报页 / 兼容矩阵 / 私有化方案页 / 选型页",
+      "track": "ai-coding",
+      "fit": "结构化信息强，适合长期沉淀成选型数据库。",
+      "format": "情报页 / 兼容矩阵 / 私有化方案页",
       "targetUsers": "重视隐私和成本的小公司、技术负责人、内网团队",
-      "launch": "7–14 天先做兼容矩阵：本地模型支持、IDE 支持、成本、安装复杂度。",
+      "launch": "7–14 天先做矩阵：模型支持、IDE 支持、成本、安装复杂度。",
       "contentSources": [
         "GitHub API",
         "Repo README",
         "Issues",
         "Releases",
-        "本地安装测试"
+        "安装测试"
       ],
-      "cloudflare": "非常适合。静态数据页即可上线。",
-      "apiGpu": "不依赖 GPU，也不依赖高额 API。",
+      "cloudflare": "非常适合。",
+      "apiGpu": "不依赖高额 API/GPU。",
       "monetization": [
         "企业留资",
         "选型咨询",
         "培训",
         "付费报告"
       ],
-      "risk": "许可证与截图素材使用要谨慎；不同项目许可不同。",
-      "activity": "高：开源 agent / IDE 辅助工具持续更新。",
+      "risk": "许可证、Logo、截图和二次整理要注意边界。",
+      "activity": "高",
       "canDoNow": "可以",
       "keywords": [
         "本地部署 AI 编程助手",
         "AI coding 私有化方案",
         "开源 Cursor 替代"
+      ],
+      "highlights": [
+        "信息密度高",
+        "适合长期维护",
+        "能做出差异化壁垒"
       ]
     },
     {
       "id": "op-3",
+      "slug": "mcp-directory",
+      "name": "MCP 服务目录 + 集成简报站",
+      "priority": "P1",
+      "track": "mcp",
+      "fit": "这是龙虾版本里最值得吸收的一条：赛道热、信息碎、目录化价值高。",
+      "format": "目录站 / Wiki / 集成说明页 / 场景简报",
+      "targetUsers": "AI 应用开发者、自动化工程师、技术创作者",
+      "launch": "先做 30–80 条 MCP 记录 + 10 个集成场景页。",
+      "contentSources": [
+        "官方 MCP servers 仓库",
+        "npm 包",
+        "项目文档",
+        "维护者 changelog"
+      ],
+      "cloudflare": "非常适合。",
+      "apiGpu": "低",
+      "monetization": [
+        "赞助位",
+        "集成模板",
+        "顾问服务",
+        "会员笔记"
+      ],
+      "risk": "要有原创整理与真实分类，不能只是堆链接。",
+      "activity": "很高",
+      "canDoNow": "可以",
+      "keywords": [
+        "best mcp servers",
+        "mcp server list",
+        "MCP 集成指南"
+      ],
+      "highlights": [
+        "外部供给碎片化",
+        "强 wiki 感",
+        "适合公开情报平台"
+      ]
+    },
+    {
+      "id": "op-4",
+      "slug": "browser-automation-scenarios",
+      "name": "Browser Automation 场景平台",
+      "priority": "P1",
+      "track": "browser-automation",
+      "fit": "不要先做通用平台，先做场景页和方案页，更容易验证需求。",
+      "format": "方案页 / 场景库 / 工作流知识库",
+      "targetUsers": "运营、招聘、销售、跨境卖家、中小团队",
+      "launch": "先做 10–20 个场景页：采集、跟踪、表单自动化、报告生成。",
+      "contentSources": [
+        "开源 Browser Agent 文档",
+        "公开案例",
+        "项目 Demo"
+      ],
+      "cloudflare": "适合用静态站先验证。",
+      "apiGpu": "低到中",
+      "monetization": [
+        "留资",
+        "实施服务",
+        "自动化方案包",
+        "咨询"
+      ],
+      "risk": "需要注意目标网站 ToS 与自动化合规。",
+      "activity": "很高",
+      "canDoNow": "可以",
+      "keywords": [
+        "browser automation ai tools",
+        "AI 浏览器自动化方案",
+        "表单自动化 AI"
+      ],
+      "highlights": [
+        "热度足",
+        "方案页更适合先做",
+        "更容易转服务变现"
+      ]
+    },
+    {
+      "id": "op-5",
+      "slug": "prompt-rules-library",
       "name": "AI Coding Prompt / Rules / Context 模板库",
       "priority": "P1",
-      "fit": "成本最低、上线最快、最容易直接售卖模板。",
-      "format": "模板库 / 下载页 / 合集页 / 会员内容页",
+      "track": "ai-coding",
+      "fit": "成本最低、上线最快、最容易直接卖模板。",
+      "format": "模板库 / 下载页 / 合集页 / 会员内容",
       "targetUsers": "使用 Cursor / Claude Code / Continue / aider 的开发者",
       "launch": "7 天先做 30–80 个模板页，覆盖 PR review、bug 修复、重构、repo onboarding。",
       "contentSources": [
         "原创模板",
-        "公开可参考范式",
-        "实测后重写整理"
+        "公开范式重写",
+        "自己的实测整理"
       ],
-      "cloudflare": "非常适合。纯静态资产即可。",
+      "cloudflare": "非常适合。",
       "apiGpu": "不依赖。",
       "monetization": [
         "模板包",
         "会员库",
         "企业定制 workflow"
       ],
-      "risk": "不要直接打包售卖他人 repo 规则文件；应原创或重写。",
-      "activity": "高：repo 级 AI 说明文件越来越常见。",
+      "risk": "不能直接拿别人规则文件二次售卖。",
+      "activity": "高",
       "canDoNow": "可以",
       "keywords": [
         "Cursor rules 模板",
         "Claude Code 提示词模板",
         "AI 编程上下文文件"
+      ],
+      "highlights": [
+        "启动成本最低",
+        "最适合做下载页",
+        "最容易直接变现"
       ]
     },
     {
-      "id": "op-4",
-      "name": "AI 编程提效方案页 / SOP 站",
-      "priority": "P1",
-      "fit": "更接近变现，适合从内容站过渡到咨询/培训/实施。",
-      "format": "方案页 / 岗位页 / 场景页 / SOP 页",
-      "targetUsers": "小团队 CTO、外包团队负责人、业务型技术团队",
-      "launch": "7–14 天做 10–20 页：Jira->计划、测试用例生成、PR 说明自动化、文档补全。",
+      "id": "op-6",
+      "slug": "ai-tool-selector",
+      "name": "AI 工具选择器 / 规则式推荐页",
+      "priority": "P2",
+      "track": "ai-coding",
+      "fit": "可作为轻工具入口页，帮助站点从内容延伸到交互。",
+      "format": "轻工具 / 问卷推荐页 / 决策树",
+      "targetUsers": "新手、创始人、小团队、准备上 AI 工具的人",
+      "launch": "用预算、用途、技术能力、部署偏好做一个规则式推荐器。",
       "contentSources": [
-        "官方案例",
-        "开源工作流",
-        "实操 SOP",
-        "通用研发流程"
-      ],
-      "cloudflare": "非常适合。",
-      "apiGpu": "可以先不依赖。",
-      "monetization": [
-        "留资",
-        "咨询",
-        "培训",
-        "实施服务",
-        "诊断报告"
-      ],
-      "risk": "不要夸大 ROI；建议给方法论与样例。",
-      "activity": "高",
-      "canDoNow": "可以",
-      "keywords": [
-        "AI 编程提效方案",
-        "研发团队 AI 落地",
-        "外包公司 AI coding SOP"
-      ]
-    },
-    {
-      "id": "op-5",
-      "name": "零 / 低 API 的 AI Coding 微工具页",
-      "priority": "P1",
-      "fit": "可作为站点钩子页，既拿访问也能验证工具需求。",
-      "format": "生成器 / 检查器 / 估算器 / 单页轻工具",
-      "targetUsers": "开发者、技术运营、团队负责人",
-      "launch": "7–21 天做 2–4 个工具：rules 生成器、PR 描述生成器、token 估算器、LLM 成本估算器。",
-      "contentSources": [
+        "内部研究库",
         "公开定价",
-        "前端算法",
-        "模板规则",
-        "你的 workflow 逻辑"
+        "真实测试结论"
       ],
-      "cloudflare": "非常适合。前端即可完成。",
-      "apiGpu": "可做到零 API。",
+      "cloudflare": "非常适合。前端可直接实现。",
+      "apiGpu": "无到低",
       "monetization": [
-        "Freemium",
-        "导流模板库",
-        "团队版",
-        "留资"
+        "联盟分销",
+        "高级推荐报告",
+        "顾问服务"
       ],
-      "risk": "低，重点是交互价值和页面可传播性。",
+      "risk": "要把推荐依据讲清楚，建立信任。",
       "activity": "中高",
       "canDoNow": "可以",
       "keywords": [
-        "PR 描述生成器",
-        "Cursor rules 生成器",
-        "codebase token estimator"
+        "ai tool selector",
+        "AI 工具推荐器",
+        "AI stack 选择"
+      ],
+      "highlights": [
+        "轻交互易传播",
+        "容易做留资",
+        "适合后续扩展到工具页"
+      ]
+    }
+  ],
+  "keywordClusters": [
+    {
+      "name": "AI Coding 对比与替代",
+      "angle": "流量最快，适合做目录与专题页",
+      "terms": [
+        "Cursor alternatives 中文",
+        "AI IDE 对比",
+        "开源 AI 编程助手",
+        "Claude Code vs Codex"
+      ]
+    },
+    {
+      "name": "私有化 / 本地部署",
+      "angle": "更适合留资和咨询转化",
+      "terms": [
+        "本地部署 AI 编程助手",
+        "AI coding 私有化方案",
+        "Ollama 编程模型",
+        "企业内网 AI 编程"
+      ]
+    },
+    {
+      "name": "MCP / 集成生态",
+      "angle": "适合做 wiki 感强的情报站",
+      "terms": [
+        "best mcp servers",
+        "mcp server list",
+        "MCP 集成指南",
+        "MCP 工具目录"
+      ]
+    },
+    {
+      "name": "Browser Automation 场景",
+      "angle": "适合做岗位/行业方案页",
+      "terms": [
+        "browser automation ai tools",
+        "AI 浏览器自动化方案",
+        "AI 表单自动化",
+        "AI 竞品监控流程"
       ]
     }
   ],
   "laterOpportunities": [
     {
-      "name": "通用企业 AI Copilot / 知识库问答平台",
-      "reason": "集成、安全、权限、销售周期都重，且被大厂持续捆绑。",
+      "name": "通用企业 AI Copilot / 知识库平台",
+      "reason": "集成、安全、权限、销售周期和支持成本都太重。",
       "cost": "中高",
       "risk": "SSO、权限、审计、数据合规",
       "timing": "更适合后期"
     },
     {
       "name": "AI 视频生成 / 数字人 / 重媒体平台",
-      "reason": "推理、带宽、存储与质量要求高，不适合当前轻量验证。",
+      "reason": "推理、带宽、存储和质量预期都很高，不适合当前轻量验证。",
       "cost": "很高",
       "risk": "烧钱、竞争强、用户预期高",
       "timing": "更适合后期"
     },
     {
-      "name": "通用语音 Agent / 电话销售平台",
-      "reason": "链路复杂、延迟敏感、异常处理和交付成本高。",
+      "name": "通用语音 Agent / 电话自动化平台",
+      "reason": "链路复杂、交付重、对话质量要求高。",
       "cost": "高",
-      "risk": "质量控制、合规与客户支持重",
+      "risk": "质量控制、合规、客户支持重",
       "timing": "更适合后期"
     },
     {
-      "name": "医疗 / 法律 / 金融等高合规 AI 决策产品",
-      "reason": "信任、责任和专业边界成本过高。",
+      "name": "通用型企业工作流平台",
+      "reason": "销售周期长、集成复杂、对一人公司不友好。",
       "cost": "高",
-      "risk": "合规、免责声明、专业责任",
+      "risk": "交付压力、集成复杂度、维护成本",
       "timing": "更适合后期"
     }
   ],
@@ -211,12 +386,16 @@
     {
       "label": "Cloudflare Workers Paid",
       "value": "$5/月起；可在 Pages 基础上增量接 Functions"
+    },
+    {
+      "label": "结构判断",
+      "value": "目录站 / 情报页 / 场景页 / 模板库 / 轻工具页 是当前最优组合"
     }
   ],
   "nextActions": [
-    "先做 30 页以内的内容型 MVP，不先做重 SaaS。",
-    "首批页面建议：10 个对比页 + 10 个替代页 + 5 个方案页 + 5 个模板页。",
-    "所有内容先本地结构化，避免先上 CMS。",
-    "上线后根据访问和留资数据再决定加会员库、微工具或咨询产品。"
+    "先做研究型信息平台，再决定是否加轻工具。",
+    "首批内容以对比页、赛道页、场景页、模板页混合起站。",
+    "站点先完成公开可读结构，后续再加订阅、表单、筛选和搜索。",
+    "所有内容继续本地结构化维护，避免过早上 CMS。"
   ]
 }

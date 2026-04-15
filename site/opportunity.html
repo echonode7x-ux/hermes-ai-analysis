@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
-    <title>AI Analysis｜后做清单</title>
-    <meta name="description" content="更适合后期再做的 AI 方向。" />
+    <title>AI Analysis｜机会详情</title>
+    <meta name="description" content="具体机会详情页。" />
     <link rel="stylesheet" href="./assets/app.css" />
   </head>
   <body>
@@ -18,11 +18,11 @@
         <div class="nav-title">导航</div>
         <nav class="nav">
           <a class="" href="./index.html">总览首页</a>
-          <a class="" href="./opportunities.html">机会库</a>
+          <a class="active" href="./opportunities.html">机会库</a>
           <a class="" href="./tracks.html">赛道页</a>
           <a class="" href="./keywords.html">关键词</a>
           <a class="" href="./signals.html">信号页</a>
-          <a class="active" href="./later.html">后做清单</a>
+          <a class="" href="./later.html">后做清单</a>
           <a class="" href="./method.html">方法说明</a>
         </nav>
         <div class="sidebar-card">
@@ -38,23 +38,23 @@
         <section class="section">
   <div class="section-head">
     <div>
-      <h2>后做 / 更重交付的方向</h2>
-      <p>这些方向不是不能做，而是不适合当前以一人公司、低成本、Cloudflare 友好的方式先验证。</p>
+      <h2 id="detail-title">机会详情</h2>
+      <p id="detail-summary">加载中</p>
     </div>
   </div>
-  <div class="card table-card">
-    <table>
-      <thead>
-        <tr>
-          <th>方向</th>
-          <th>为什么现在不优先</th>
-          <th>成本</th>
-          <th>主要风险</th>
-          <th>建议时机</th>
-        </tr>
-      </thead>
-      <tbody id="later-table"></tbody>
-    </table>
+  <div class="grid cols-2">
+    <div id="detail-card"></div>
+    <div class="card section-card">
+      <div class="eyebrow">相关机会</div>
+      <h3>可以继续打磨的方向</h3>
+      <ul class="list" id="related-opportunities"></ul>
+      <div class="summary-box" style="margin-top:16px">
+        <strong>详情页扩展建议：</strong> 加入案例、模板包、来源链接、更新时间、订阅入口与用户反馈，逐步把单条机会页做成研究档案页。
+      </div>
+      <div class="note-box" style="margin-top:16px">
+        当前版本先保证可读和信息层级，下一步再加筛选、搜索、留言与邮件订阅。
+      </div>
+    </div>
   </div>
 </section>
 
