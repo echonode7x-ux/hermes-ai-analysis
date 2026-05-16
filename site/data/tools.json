@@ -1,0 +1,74 @@
+{
+  "updatedAt": "2026-05-16",
+  "categories": [
+    {
+      "name": "AI Coding",
+      "tools": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.sh",
+          "description": "AI-first代码编辑器，最适合快速原型开发",
+          "price": "$20/月",
+          "bestFor": "快速原型、小项目、学习",
+          "affiliate": true,
+          "rating": 4.8
+        },
+        {
+          "name": "Claude Code",
+          "url": "https://claude.ai",
+          "description": "Anthropic的AI编程助手，最适合复杂项目",
+          "price": "$20/月",
+          "bestFor": "复杂项目、代码审查、重构",
+          "affiliate": true,
+          "rating": 4.9
+        },
+        {
+          "name": "Windsurf",
+          "url": "https://windsurf.ai",
+          "description": "AI编程IDE，最适合全栈开发",
+          "price": "$15/月",
+          "bestFor": "全栈开发、快速迭代",
+          "affiliate": true,
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "name": "Browser Automation",
+      "tools": [
+        {
+          "name": "Browser Use",
+          "url": "https://github.com/browser-use/browser-use",
+          "description": "开源浏览器自动化框架，最适合AI Agent",
+          "price": "免费",
+          "bestFor": "AI Agent、自动化任务、数据采集",
+          "affiliate": false,
+          "rating": 4.7
+        },
+        {
+          "name": "Playwright",
+          "url": "https://playwright.dev",
+          "description": "微软的浏览器自动化框架，最适合测试",
+          "price": "免费",
+          "bestFor": "测试、爬虫、自动化",
+          "affiliate": false,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "name": "MCP/集成",
+      "tools": [
+        {
+          "name": "MCP Servers",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "description": "官方MCP服务器集合，最适合快速集成",
+          "price": "免费",
+          "bestFor": "AI工具集成、自动化工作流",
+          "affiliate": false,
+          "rating": 4.5
+        }
+      ]
+    }
+  ]
+}

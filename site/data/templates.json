@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-05-16",
+  "categories": [
+    {
+      "name": "Prompt模板",
+      "templates": [
+        {
+          "name": "代码审查Prompt",
+          "description": "用于AI代码审查的Prompt模板",
+          "category": "ai-coding",
+          "price": "免费",
+          "downloadUrl": "#",
+          "preview": "请审查以下代码，重点关注：1. 代码质量 2. 安全漏洞 3. 性能优化 4. 最佳实践"
+        },
+        {
+          "name": "项目启动Prompt",
+          "description": "用于AI辅助项目启动的Prompt模板",
+          "category": "ai-coding",
+          "price": "免费",
+          "downloadUrl": "#",
+          "preview": "请帮我分析这个项目需求，输出：1. 技术栈推荐 2. 架构设计 3. 开发计划 4. 风险评估"
+        }
+      ]
+    },
+    {
+      "name": "Rules模板",
+      "templates": [
+        {
+          "name": "Python项目Rules",
+          "description": "适用于Python项目的Cursor Rules模板",
+          "category": "ai-coding",
+          "price": "¥19.9",
+          "downloadUrl": "#",
+          "preview": "Python 3.11+ | Type hints | pytest | black | ruff"
+        },
+        {
+          "name": "Next.js项目Rules",
+          "description": "适用于Next.js项目的Cursor Rules模板",
+          "category": "ai-coding",
+          "price": "¥19.9",
+          "downloadUrl": "#",
+          "preview": "Next.js 14+ | TypeScript | Tailwind | Prisma"
+        }
+      ]
+    },
+    {
+      "name": "工作流模板",
+      "templates": [
+        {
+          "name": "自动化测试工作流",
+          "description": "AI驱动的自动化测试工作流模板",
+          "category": "browser-automation",
+          "price": "¥49.9",
+          "downloadUrl": "#",
+          "preview": "测试用例生成 → 自动执行 → 结果分析 → 报告生成"
+        },
+        {
+          "name": "竞品监控工作流",
+          "description": "AI驱动的竞品监控工作流模板",
+          "category": "browser-automation",
+          "price": "¥49.9",
+          "downloadUrl": "#",
+          "preview": "定时采集 → 变化检测 → 智能分析 → 预警通知"
+        }
+      ]
+    }
+  ]
+}

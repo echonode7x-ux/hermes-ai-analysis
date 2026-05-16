@@ -1,0 +1,31 @@
+{
+  "updatedAt": "2026-05-16",
+  "research": [
+    {
+      "id": "research-001",
+      "date": "2026-05-16",
+      "title": "Claude Code私有化部署服务",
+      "track": "ai-coding",
+      "status": "待验证",
+      "summary": "为企业提供Claude Code私有化部署，单次收费500-2000元",
+      "cost": "50元/月",
+      "expectedRevenue": "月入5000-20000元",
+      "timeline": "7天MVP",
+      "highlight": "成本极低，需求明确，单人可做",
+      "contentPath": "content/research/2026-05-16-claude-code-deploy.md"
+    },
+    {
+      "id": "research-002",
+      "date": "2026-05-16",
+      "title": "MCP Server集成方案",
+      "track": "mcp",
+      "status": "待验证",
+      "summary": "为企业搭建MCP Server集成方案，单次收费1000-3000元",
+      "cost": "0元",
+      "expectedRevenue": "月入8000-30000元",
+      "timeline": "7天MVP",
+      "highlight": "零成本启动，技术壁垒适中，复购率高",
+      "contentPath": "content/research/2026-05-16-mcp-integration.md"
+    }
+  ]
+}

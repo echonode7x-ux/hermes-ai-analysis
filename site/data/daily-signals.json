@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-05-16",
+  "signals": [
+    {
+      "date": "2026-05-16",
+      "title": "Claude Code私有化部署服务",
+      "source": "GitHub Trending",
+      "url": "https://github.com/anthropics/claude-code",
+      "track": "ai-coding",
+      "cost": "50元/月",
+      "opportunity": "为企业提供Claude Code私有化部署，单次收费500-2000元",
+      "value": "high",
+      "evidence": "GitHub 50k+ stars，企业需求旺盛",
+      "mvp": "Day1: 部署测试 → Day2: 写教程 → Day3: 发布获客"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "MCP Server集成服务",
+      "source": "Product Hunt",
+      "url": "https://modelcontextprotocol.io",
+      "track": "mcp",
+      "cost": "0元",
+      "opportunity": "为企业搭建MCP Server集成方案，单次收费1000-3000元",
+      "value": "high",
+      "evidence": "MCP生态快速扩张，企业集成需求大",
+      "mvp": "Day1: 学习MCP → Day2: 做3个Demo → Day3: 发布案例"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Browser Automation场景方案",
+      "source": "V2EX",
+      "url": "https://github.com/browser-use/browser-use",
+      "track": "browser-automation",
+      "cost": "100元/月",
+      "opportunity": "为运营/销售团队搭建自动化工作流，单次收费2000-5000元",
+      "value": "medium",
+      "evidence": "browser-use 30k+ stars，场景化需求明确",
+      "mvp": "Day1: 选3个场景 → Day2: 做Demo → Day3: 发布获客"
+    }
+  ]
+}

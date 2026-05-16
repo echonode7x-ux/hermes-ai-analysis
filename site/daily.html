@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>AI Analysis｜每日情报</title>
+    <meta name="description" content="每日AI一人公司机会信号，自动采集自动更新。" />
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-mark" href="./index.html">
+          <strong>HERMES / AI Analysis</strong>
+          <span>AI一人公司商业情报平台</span>
+        </a>
+        <nav class="main-nav">
+          <a href="./index.html">首页</a>
+          <a href="./opportunities.html">机会库</a>
+          <a href="./daily.html" class="active">每日情报</a>
+          <a href="./research.html">深度研究</a>
+          <a href="./tracks.html">赛道</a>
+          <a href="./tools.html">工具箱</a>
+          <a href="./templates.html">模板库</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">每日情报</div>
+            <h2 class="section-title">今日AI机会信号</h2>
+          </div>
+          <p>每天凌晨自动采集，筛选出最有价值的AI一人公司机会。每条信号都经过真实性验证。</p>
+        </div>
+        <div class="grid cols-2" id="daily-signals-list">
+          <div class="loading">加载中...</div>
+        </div>
+      </section>
+    </main>
+    <div class="container footer">HERMES AI Analysis · 每日自动更新 · 所有信号均经过真实性验证</div>
+    <script type="module" src="./assets/daily.js"></script>
+  </body>
+</html>
