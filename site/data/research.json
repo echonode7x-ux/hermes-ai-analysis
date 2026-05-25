@@ -18,19 +18,31 @@
         ]
     },
     "quickStats": [
-        { "label": "覆盖方向", "value": "12" },
-        { "label": "已验证", "value": "5" },
-        { "label": "已证伪", "value": "1" },
-        { "label": "待验证", "value": "6" }
+        {
+            "label": "覆盖方向",
+            "value": "12"
+        },
+        {
+            "label": "已验证",
+            "value": "5"
+        },
+        {
+            "label": "已证伪",
+            "value": "1"
+        },
+        {
+            "label": "待验证",
+            "value": "6"
+        }
     ],
     "landscape": [
         {
             "id": "landscape-001",
             "name": "AI短剧/漫剧制作",
             "barrier": "低",
-            "incomeRange": "¥2,000-8,000/月",
-            "credibility": 4,
-            "status": "已验证",
+            "incomeRange": "¥2,000-19,000/月",
+            "credibility": 5,
+            "status": "已验证-重点",
             "trend": "↑",
             "contentPath": "content/research/2026-05-25-ai-short-drama.md"
         },
