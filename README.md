@@ -1,38 +1,93 @@
-# ai-analysis
+# AI Venture Lab
 
-一个面向 **一人公司 / 低成本 / AI Coding 驱动机会** 的研究型信息站。
+> AI 创业实验情报站 — 面向一人公司的可执行商业情报平台
 
-## 当前定位
-- 不做重 SaaS
-- 优先做成 **Web 展示型研究平台**
-- 所有部署目标默认是 **Cloudflare Pages**
-- 内容先维护在本地 JSON，前端静态发布
+## 定位
+
+**不是AI新闻站，不是AI教程站，是"AI赚钱可行性验证实验室"。**
+
+每一条内容必须回答一个问题：**这件事，一个人能不能做，做了能不能赚到钱？**
+
+### 三不原则
+- ❌ 不收录未经验证的"暴富故事"
+- ❌ 不推荐需要先交钱才能开始的项目
+- ❌ 不输出无法在7天内产生第一笔收入的方案
+
+### 三要原则
+- ✅ 要有真实数据来源（可追溯的新闻/案例/平台数据）
+- ✅ 要有完整执行SOP（从0到第一笔收入的最小路径）
+- ✅ 要有法律风险评估（每条方案附红线检查）
 
 ## 项目结构
-- `site/`：站点源文件
-- `site/data/research.json`：当前调研数据
-- `dist/`：构建输出
-- `scripts/build.mjs`：静态构建脚本
-- `wrangler.toml`：Cloudflare Pages 配置
 
-## 本地使用
-```bash
-npm run build
-npm run preview
+```
+├── content/
+│   ├── daily/           # 每日信号（AI新闻 + 副业信号 + 平台动态）
+│   ├── research/        # 深度调研（完整可执行方案）
+│   ├── cases/           # 真实案例库（可验证的收入数据）
+│   └── templates/       # 执行模板（SOP、Prompt、工作流）
+├── docs/
+│   ├── OPERATING-MODEL.md   # 运行模型（核心方法论）
+│   ├── PROJECT-PLAN.md      # 项目计划书（人财物需求）
+│   ├── SOP-STANDARDS.md     # 调研SOP标准与质量门禁
+│   ├── EVOLUTION-MODEL.md   # 进化机制与复盘框架
+│   ├── COMMERCIAL-PLAN.md   # 商业化版图
+│   └── WORKFLOW.md          # Git工作流规范
+├── site/                # 静态站点源文件
+│   ├── data/            # JSON数据层
+│   └── *.html           # 页面模板
+└── scripts/             # 自动化脚本
 ```
 
-## Cloudflare 部署
-直接连接 GitHub 仓库到 Cloudflare Pages：
-- Build command: `npm run build`
-- Build output directory: `dist`
+## 内容模块
 
-也可以使用 Wrangler：
+| 模块 | 更新频率 | 内容标准 | 状态 |
+|------|----------|----------|------|
+| AI副业全景 | 每月更新 | 10+方向，含验证状态 | 🟡 建设中 |
+| 可行性验证 | 每周2篇 | 正反攻击 + 真实数据 | 🟡 建设中 |
+| SOP拆解 | 持续 | 7天MVP路径 + 工具链 | 🟡 建设中 |
+| 割韭菜识别 | 持续 | 已曝光案例 + 判断框架 | 🟡 建设中 |
+| AI短剧/漫剧 | 每周1篇 | 工具实测 + 变现数据 | 🔴 待启动 |
+| AI自由职业 | 每周1篇 | 平台数据 + 接单实操 | 🔴 待启动 |
+| AI数据标注 | 每月更新 | 平台对比 + 时薪数据 | 🔴 待启动 |
+| 趋势预判 | 每月1篇 | 12个月趋势 + 机会窗口 | 🔴 待启动 |
+
+## 运行机制
+
+### 信息真实性保障
+每条信息必须标注：
+- **来源类型**：一手（亲自验证）/ 二手（权威媒体）/ 三手（社交传播）
+- **验证状态**：已验证 / 待验证 / 已证伪
+- **可信度评分**：1-5星（附评分依据）
+
+### 每日执行循环
+```
+06:00  信号采集（AI新闻 + 平台动态 + 副业信号）
+09:00  信号筛选（通过质量门禁的进入研究池）
+12:00  快速验证（30分钟初步可行性判断）
+18:00  产出输出（每日信号 / 深度研究 / SOP）
+21:00  数据更新（JSON + Git commit）
+```
+
+### 进化机制
+- **周复盘**：哪些预测对了，哪些错了，为什么
+- **月迭代**：更新全景图，淘汰无效方向，新增新发现
+- **季审计**：全量内容真实性复查，数据刷新
+
+## 部署
+
 ```bash
-npx wrangler pages deploy dist
+npm run build && npm run preview
+# Cloudflare Pages: Build command = npm run build, Output = dist
 ```
 
 ## Git 规则
+
 - Conventional Commits
 - `main` 作为默认分支
 - push early, push often
-- 需要并行任务时使用 `git worktree`
+- 并行任务使用 `git worktree`
+
+---
+
+**核心原则：为执行而生产，为结果而验证。没有数据的结论不写，没有SOP的方向不推。**
